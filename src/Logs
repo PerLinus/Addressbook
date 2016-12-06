@@ -1,0 +1,203 @@
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:33:41 INFO   com.linus.nilsson83gmail.ServerClient readServerContactList - TEST 1234
+2016-12-06 23:33:45 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:33:46 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:33:48 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:33:48 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:38:40 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:38:40 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:38:40 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:38:40 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:38:40 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:38:45 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:38:50 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:38:55 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:00 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:05 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:10 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:15 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:20 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:20 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:39:25 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:39:25 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:39:25 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:41:34 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:41:35 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:41:36 SEVERE com.linus.nilsson83gmail.ServerClient run - Something wrong occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.linus.nilsson83gmail.ServerClient.run(ServerClient.java:30)
+	at com.linus.nilsson83gmail.AddressBookProgram.run(AddressBookProgram.java:25)
+	at com.linus.nilsson83gmail.Main.main(Main.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+
+2016-12-06 23:41:40 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: add a a a
+2016-12-06 23:41:41 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:41:43 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:41:43 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:41:58 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:41:58 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:41:58 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:41:58 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:41:58 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:42:03 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:42:03 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:42:08 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:42:12 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:42:12 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:43:53 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:43:53 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:43:54 SEVERE com.linus.nilsson83gmail.ServerClient run - Something wrong occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.linus.nilsson83gmail.ServerClient.run(ServerClient.java:30)
+	at com.linus.nilsson83gmail.AddressBookProgram.run(AddressBookProgram.java:25)
+	at com.linus.nilsson83gmail.Main.main(Main.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+
+2016-12-06 23:43:59 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:43:59 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: delete 3bd2b50d-cf6d-43c5-8278-61beee34edcb
+2016-12-06 23:44:02 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:44:02 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:44:50 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:44:51 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:44:51 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:44:51 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:44:51 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:44:53 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:44:56 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:44:58 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: search a
+2016-12-06 23:45:01 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:45:03 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:45:03 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:46:24 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:46:25 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:46:25 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:46:25 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:46:25 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:46:27 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:46:30 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:46:35 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:46:36 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:46:36 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:49:37 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:49:37 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:49:42 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:49:42 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:49:42 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:49:42 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:49:47 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:49:52 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:49:54 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:49:54 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:51:51 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:51:51 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:51:55 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:51:56 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:51:56 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:51:56 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:51:56 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:52:01 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:02 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:52:06 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:11 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:16 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:21 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:26 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:31 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:36 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:41 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:52:45 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:52:45 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-06 23:55:47 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-06 23:55:47 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-06 23:55:50 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:55:52 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:55:53 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: add a a a
+2016-12-06 23:55:57 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:55:58 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: search a
+2016-12-06 23:56:01 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:56:02 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:06 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:56:07 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:10 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: help
+2016-12-06 23:56:12 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:17 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:56:17 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:22 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:27 INFO   com.linus.nilsson83gmail.ServerClient run - Connection with server was establisht
+2016-12-06 23:56:27 INFO   com.linus.nilsson83gmail.ServerClient run - Contacts loaded from server
+2016-12-06 23:56:27 INFO   com.linus.nilsson83gmail.ServerClient run - ServerClient disconnected from server
+2016-12-06 23:56:27 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:32 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:36 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: delete fa50726d-69de-47f8-8ed3-503754cafef9
+2016-12-06 23:56:37 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-06 23:56:38 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-06 23:56:41 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-06 23:56:41 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
+2016-12-07 00:13:29 INFO   com.linus.nilsson83gmail.AddressBook <init> - Program started
+2016-12-07 00:13:29 INFO   com.linus.nilsson83gmail.AddressBook <init> - Saved contacts was loaded
+2016-12-07 00:13:34 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:13:35 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-07 00:13:39 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:13:43 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: delete e
+2016-12-07 00:13:44 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:13:49 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:13:54 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:13:59 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:14:04 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:14:09 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:14:10 SEVERE com.linus.nilsson83gmail.ServerClient run - Something wrong occurred
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.linus.nilsson83gmail.ServerClient.run(ServerClient.java:36)
+	at com.linus.nilsson83gmail.AddressBookProgram.lambda$run$0(AddressBookProgram.java:26)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-12-07 00:14:14 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:14:18 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: list
+2016-12-07 00:14:19 INFO   com.linus.nilsson83gmail.SaveHandler lambda$autoSave$0 - Contacts was autosaved.
+2016-12-07 00:14:22 FINE   com.linus.nilsson83gmail.AddressBookProgram run - User input: quit
+2016-12-07 00:14:22 INFO   com.linus.nilsson83gmail.AddressBookProgram quit - Program ended and contacts was saved
